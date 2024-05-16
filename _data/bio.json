@@ -45,15 +45,18 @@
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
+      "company": "Naval Information Warfare Center Pacific (NIWC formerly known as SPAWAR)",
+      "position": "Electrical and Electronics Engineer",
       "website": "",
-      "startDate": "2015-08-01",
-      "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "startDate": "2011-05-01",
+      "endDate": "2018-02-01",
+      "summary": "Engineer and PI on a variety of Projects",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "Designed and implemented AV/VTC systems (Crestron, AMX, Extron)",
+        "Designed and Implemented the Cisco UCS Virtualization Architecture",
+        "Proposed Managed and Executed Machine Learning Projects in Deep Learning",
+        "ML projects using shipping route data to perform action pattern recognition",
+        "Deep Learning to create a recommender system for watch officers"
       ]
     },
     {
