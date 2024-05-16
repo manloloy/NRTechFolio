@@ -7,6 +7,9 @@ date: 2024-05-16
 published: true
 labels:
   - Engineering
+  - Blockchain
+  - Software
+  - Cryptocurrency
 ---
 
 # Understanding Blockchain Technology: A Beginner's Guide
