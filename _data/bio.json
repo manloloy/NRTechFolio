@@ -45,7 +45,7 @@
     {
       "company": "Naval Information Warfare Center Pacific (NIWC formerly known as SPAWAR)",
       "position": "Electrical and Electronics Engineer",
-      "website": "",
+      "website": "https://www.niwcpacific.navy.mil/",
       "startDate": "2011-05-01",
       "endDate": "2018-02-01",
       "summary": "Engineer and PI on a variety of Projects",
@@ -54,19 +54,30 @@
         "Designed and Implemented the Cisco UCS Virtualization Architecture",
         "Proposed Managed and Executed Machine Learning Projects in Deep Learning",
         "ML projects using shipping route data to perform action pattern recognition",
-        "Deep Learning to create a recommender system for watch officers"
+        "Deep Learning to create a recommender system for watch officers",
+        "Designed and Executed Assessment Plans for renewable technologies",
+        "Deisgned an android application which allos dosimeter data through mobile devices and sends data over sms",
+        "Designed and Installed a communications network for the Maldivian Government"
       ]
     },
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
+      "company": "University of Hawaii at Manoa",
+      "position": "Lecturer in the Electrical Engineering Department",
+      "website": "https://ee.hawaii.edu/home/",
+      "startDate": "2017-08-01",
+      "endDate": "Present",
+      "summary": "Lectured Electrical Engineering Courses. EE160, EE205, EE260, EE211, EE213",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "Additionally Lectured at Honolulu, Kapiolani, and Leeward Community Colleges (KCC, LCC, HCC)",
+        "160+ Credits of lecturing accumulated",
+        "Developed/Planned the Curriculum and Labs",
+        "Supervised Teaching Assistants and Graders",
+        "Courses Included below.",
+        "EE 160: Programming For Engineers (C & Python)",
+        "EE 205: Object Oriented Programming (C++)",
+        "EE 211: Basic Circuit Analysis",
+        "EE 260: Introduction to Digital Logic with Verilog",
+        "EE 213: Basic Circuit Analysis II"
       ]
     }
   ],
