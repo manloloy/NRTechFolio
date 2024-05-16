@@ -25,19 +25,19 @@
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Common Lisp" ]
+      "keywords": [ "Bash", "C", "C++", "C#", "Java", "Javascript", "Python", "Dart", "Swift", "Objective C"]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
+      "keywords": [ "Ubuntu", "MacOS", "Git" , "Github", "g++", "cardano-cli/cardano-node" ]
     }
   ],
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
-      "studyType": "M.S.",
-      "startDate": "2013-09-01",
+      "area": "Electrical Engineering (expected Spring, 2026)",
+      "studyType": "PhD",
+      "startDate": "2023-12-01",
       "endDate": "Present",
       "courses": [
       ]
