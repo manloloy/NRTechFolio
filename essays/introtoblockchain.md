@@ -9,8 +9,6 @@ labels:
   - Engineering
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/difficulty/degree_difficulty.jpg">
-
 # Understanding Blockchain Technology: A Beginner's Guide
 Blockchain technology is transforming the way we think about data and transactions, offering a more secure, transparent, and decentralized approach. This guide will introduce you to the fundamentals of blockchain, its benefits, and its potential applications.
 
