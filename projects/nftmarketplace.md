@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: https://raw.githubusercontent.com/manloloy/NRTechfolio/main/img/nftmarketplace/NFThorPGem.png
+image: ../img/nftmarketplace/NFThorPGem.png
 title: "A Cardano NFT Marketplace"
 date: 2015
 published: true
