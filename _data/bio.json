@@ -1,13 +1,13 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
+    "name": "Christopher Manloloyo",
     "label": "NRT Trainee",
-    "picture": "https://github.com/kambergjohnson.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am an NRT DESCARTS trainee studying for a MS in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.",
-    "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "picture": "https://raw.githubusercontent.com/manloloy/NRTechfolio/main/img/chrism-profile-pic.jpeg",
+    "email": "manloloy@hawaii.edu",
+    "phone": "808-398-0275",
+    "website": "https://manloloy.github.io/NRTechfolio/",
+    "summary": "I am an NRT DESCARTS trainee studying for a PhD in Electrical Engineering at the University of Hawaii. I expect to graduate in Spring, 2026.",
+    "location": { "address": "", "postalCode": "96782", "city": "Pearl City", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "mmaluhia", "url": "http://github.com/changeme" },
       { "network": "linkedin", "username": "mollymaluhia", "url": "http://linkedin.com/in/changeme" },
