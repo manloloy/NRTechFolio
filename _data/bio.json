@@ -16,11 +16,11 @@
     ]
   },
   "interests": [
-    { "name": "Neuromorphic Analytics" },
-    { "name": "Neuromorphic Computing" },
-    { "name": "Quantum Computing" },
-    { "name": "Robotics" },
-    { "name": "3D Graphics" }
+    { "name": "Machine Learning" },
+    { "name": "In Context Learning" },
+    { "name": "Blockchain and Privacy on Blockchain" },
+    { "name": "Blockchain Architectures and DAO" },
+    { "name": "MicroSaas" }
   ],
   "skills": [
     {
