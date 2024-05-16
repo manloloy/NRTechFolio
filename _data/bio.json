@@ -43,21 +43,24 @@
   ],
   "work": [
     {
-      "company": "Naval Information Warfare Center Pacific (NIWC formerly known as SPAWAR)",
-      "position": "Electrical and Electronics Engineer",
-      "website": "https://www.niwcpacific.navy.mil/",
-      "startDate": "2011-05-01",
-      "endDate": "2018-02-01",
-      "summary": "Engineer and PI on a variety of Projects",
+      "company": "H Tech Studio LLC",
+      "position": "Software & Electrical Engineer",
+      "website": "https://htechstudio.com",
+      "startDate": "2015-01-01",
+      "endDate": "Present",
+      "summary": "Developed various software applications using a diverse toolset",
       "highlights": [
-        "Designed and implemented AV/VTC systems (Crestron, AMX, Extron)",
-        "Designed and Implemented the Cisco UCS Virtualization Architecture",
-        "Proposed Managed and Executed Machine Learning Projects in Deep Learning",
-        "ML projects using shipping route data to perform action pattern recognition",
-        "Deep Learning to create a recommender system for watch officers",
-        "Designed and Executed Assessment Plans for renewable technologies",
-        "Deisgned an android application which allos dosimeter data through mobile devices and sends data over sms",
-        "Designed and Installed a communications network for the Maldivian Government"
+        "Blockchain Developer in various chains with recent specialization in the Cardano Blockchain",
+        "Developed Blockchain NFT Marketplaces, Cardano Smart Contracts, and Rewards Schemes",
+        "Developed an Online Compiling API using various open source technologies",
+        "Integrated an Online Compiling API using various open source technologies",
+        "Developed micro saas prototypes and applications which include: social applications invoice builder, various APIs, VPNs, IPFS, and more.",
+        "Application and Game Development for Android, IOS, Windows, macOS, and Web.",
+        "Understanding of the Unity game engine and the application lifestyle",
+        "Understanding Frameworks like ReactJS, React Native, Flutter and many others.",
+        "Programming in C, C++, C#, Java, Javascript, Python, Objective C, Swift, Dart, and more.",
+        "Familiar with the full lifecycle of software products.",
+        "Heavily involved in programming over 25 prototypes for mobile/web apps. Both active and inactive projects."
       ]
     },
     {
@@ -79,47 +82,75 @@
         "EE 260: Introduction to Digital Logic with Verilog",
         "EE 213: Basic Circuit Analysis II"
       ]
+    },
+    {
+      "company": "Naval Information Warfare Center Pacific (NIWC formerly known as SPAWAR)",
+      "position": "Electrical and Electronics Engineer",
+      "website": "https://www.niwcpacific.navy.mil/",
+      "startDate": "2011-05-01",
+      "endDate": "2018-02-01",
+      "summary": "Engineer and PI on a variety of Projects",
+      "highlights": [
+        "Designed and implemented AV/VTC systems (Crestron, AMX, Extron)",
+        "Designed and Implemented the Cisco UCS Virtualization Architecture",
+        "Proposed Managed and Executed Machine Learning Projects in Deep Learning",
+        "ML projects using shipping route data to perform action pattern recognition",
+        "Deep Learning to create a recommender system for watch officers",
+        "Designed and Executed Assessment Plans for renewable technologies",
+        "Deisgned an android application which allos dosimeter data through mobile devices and sends data over sms",
+        "Designed and Installed a communications network for the Maldivian Government"
+      ]
     }
   ],
   "volunteer": [
     {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
+      "organization": "Private Programming & Robotics Lessons",
+      "website": "https://devscafe.com",
+      "position": "Programming Instructor",
+      "startDate": "2018-01-01",
       "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
+      "summary": "Paid Gigs and Volunteer gigs for teaching students (Elementary to HS) the basics of Programming",
       "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
+        "Student's Levels are Elementary to High School level.",
+        "Teach various languages and technologies.",
+        "Teach Circuit Soldering with hands on experience",
+        "Teach basic electrical components and Ohm's Law",
+        "Hands on 3D printing and simple Modeling",
+        "Arduino programming and servo motor control"
       ]
     },
     {
-      "organization": "",
-      "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
+      "organization": "First Robotics Competition",
+      "website": "https://www.firstinspires.org/robotics/frc",
+      "position": "Mentor",
+      "startDate": "2014-08-01",
+      "endDate": "2015-12-01",
+      "summary": "Mentored the Waipahu High School FRC team and helped out with the Pearl City Team",
       "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
+        "Instructed students on how to use some basic machining tools",
+        "Helped students to understand basic programming",
+        "Participate and Mentor at the FRC Competition"
       ]
     }
   ],
   "awards": [
     {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
+      "title": "On the SPot Award",
+      "date": "2016",
+      "awarder": "SPAWAR Systems Center Pacific (rebranded as NIWC)",
+      "summary": "Awarded to recognize accomplishments at SPAWAR"
+    },
+        {
+      "title": "Command Coin, Award for Excellence",
+      "date": "2015",
+      "awarder": "SPAWAR Systems Center Pacific (rebranded as NIWC)",
+      "summary": "Awarded to recognize accomplishments at SPAWAR"
     },
     {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
+      "title": "Certificate of Appreciation for Dedicated Service",
+      "date": "2013",
+      "awarder": "Maldives National Defence Force",
+      "summary": "Assisted in upgrading the Maldives National Defence Force Network. Locations include the Maldives Headquaters and remote locations on various islands."
     }
   ],
   "references": [
