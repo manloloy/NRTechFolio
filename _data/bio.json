@@ -2,7 +2,7 @@
   "basics": {
     "name": "Christopher Manloloyo",
     "label": "NRT Trainee",
-    "picture": "https://raw.githubusercontent.com/manloloy/NRTechfolio/main/img/chrism-profile-pic.jpeg",
+    "picture": "/img/chrism-profile-pic.jpeg",
     "email": "manloloy@hawaii.edu",
     "phone": "808-398-0275",
     "website": "https://manloloy.github.io/NRTechfolio/",
@@ -10,7 +10,7 @@
     "location": { "address": "", "postalCode": "96782", "city": "Pearl City", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "manloloy", "url": "https://github.com/manloloy" },
-      { "network": "linkedin", "username": "manloloyo", "url": "https://www.linkedin.com/in/manloloyo/" },
+      { "network": "linkedin", "username": "manloloyo", "url": "https://www.linkedin.com/in/manloloyo/" }
     ]
   },
   "interests": [
