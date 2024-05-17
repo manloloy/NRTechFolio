@@ -3,13 +3,13 @@ layout: project
 type: project
 image: /img/nftmarketplace/NFThorPGem.png
 title: "A Cardano NFT Marketplace"
-date: 2022
+date: 2021
 published: true
 labels:
   - Cardano
   - NFT
   - NFT Trading
-summary: "I developed an NFT Trading Marketplace for a client. This marketplace can create, mint, and trade NFTs through cardano smart contracts."
+summary: "Cardano Smart Contracts were launched in 2021. I've built an NFT trading marketplace leveraging smart contracts to explore their uses. This project was built for an existing client."
 ---
 <div class="text-center p-4">
   <img width="200px" src="../img/nftmarketplace/marketplace1.png" class="img-thumbnail" >
