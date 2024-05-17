@@ -3,7 +3,7 @@ layout: project
 type: project
 image: /img/nftmarketplace/NFThorPGem.png
 title: "A Cardano NFT Marketplace"
-date: 2015
+date: 2022
 published: true
 labels:
   - Cardano
@@ -14,8 +14,10 @@ summary: "I developed an NFT Trading Marketplace for a client. This marketplace 
 <div class="text-center p-4">
   <img width="200px" src="../img/nftmarketplace/marketplace1.png" class="img-thumbnail" >
   <img width="200px" src="../img/nftmarketplace/marketplace1.png" class="img-thumbnail" >
-</div>****
+</div>
+
 # NFThor.io Project Summary
+I've developed this NFT Marketplace by levaraging NextJS, Cardano Smart Contracts, and other open source tools.
 NFThor.io is an innovative platform designed to leverage blockchain technology for the creation, trading, 
 and management of Non-Fungible Tokens (NFTs). The project aims to provide a user-friendly and secure environment 
 where artists, collectors, and enthusiasts can engage with digital assets in new and exciting ways. 
