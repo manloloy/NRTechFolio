@@ -40,4 +40,3 @@ the revenue every time their work is resold. This feature supports sustainable i
 
 NFThor.io is dedicated to pushing the boundaries of what is possible with NFTs, providing a robust platform that supports innovation and 
 creativity in the digital space.
-
