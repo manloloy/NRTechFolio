@@ -11,7 +11,10 @@ labels:
   - Kernel Methods
 summary: "I was a contributor on the following Conference paper which was presented at the 2010 International Conference on Green Circuits and Systems in Shanghai. I worked on the LMS, RLS, KLMS, KRLS Algorithms and ran simulations in Matlab."
 ---
-# Paper Summary
+
+I was a contributor on the following Conference paper which was presented at the 2010 International Conference on Green Circuits and Systems in Shanghai. I worked on the LMS, RLS, KLMS, KRLS Algorithms and ran simulations in Matlab.
+
+### Paper Summary
 
 In recent years, the increasing adoption of renewable energy sources, such as wind power, has necessitated the development of accurate and efficient prediction methods for wind speed and direction. This is crucial for ensuring grid stability and optimizing the operation of wind turbines. The paper "Wind Prediction Using Complex Augmented Adaptive Filters" by Anthony Kuh, Christopher Manloloyo, Raynel Corpuz, and Nathan Kowahl from the University of Hawaii, delves into advanced nonlinear adaptive filtering techniques, specifically using kernel methods, to enhance wind prediction capabilities.
 
