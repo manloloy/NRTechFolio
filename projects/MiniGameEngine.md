@@ -11,7 +11,7 @@ labels:
 summary: "I developed a mini game engine using Python 3 and Turtle utilizing Skulpt (A javascript Turtle Port). The site is made to empower beginner and intermediate python users to build simple games. The object oriented python API is very minimal and easy to learn." 
 ---
 
-<img class="img-fluid" src="../img/MiniGameEngine/crazyshapes.gif">
+<img class="img-fluid" src="../img/MiniGameEngine/crazyshapes.gif style="position: absolute; z-index: 9999" ">
 <br>
 # Introducing a Simple Game Engine for Python Users
 Developing a game can be an exciting yet challenging task, especially for those new to programming. However, with the right tools and resources, even beginners can start creating their own games. This is where a simple game engine, designed with Python users in mind, comes into play.
