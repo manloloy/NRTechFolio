@@ -7,27 +7,69 @@
     "phone": "808-398-0275",
     "website": "https://manloloy.github.io/NRTechfolio/",
     "summary": "I am an NRT DESCARTES trainee studying for a PhD in Electrical Engineering at the University of Hawaii. I expect to graduate in Spring, 2026.",
-    "location": { "address": "", "postalCode": "96782", "city": "Pearl City", "countryCode": "USA", "region": "Hawaii" },
+    "location": {
+      "address": "",
+      "postalCode": "96782",
+      "city": "Pearl City",
+      "countryCode": "USA",
+      "region": "Hawaii"
+    },
     "profiles": [
-      { "network": "github", "username": "manloloy", "url": "https://github.com/manloloy" },
-      { "network": "linkedin", "username": "manloloyo", "url": "https://www.linkedin.com/in/manloloyo/" }
+      {
+        "network": "github",
+        "username": "manloloy",
+        "url": "https://github.com/manloloy"
+      },
+      {
+        "network": "linkedin",
+        "username": "manloloyo",
+        "url": "https://www.linkedin.com/in/manloloyo/"
+      }
     ]
   },
   "interests": [
-    { "name": "Machine Learning" },
-    { "name": "In Context Learning" },
-    { "name": "Blockchain and Privacy on Blockchain" },
-    { "name": "Blockchain Architectures and DAO" },
-    { "name": "MicroSaas" }
+    {
+      "name": "Machine Learning"
+    },
+    {
+      "name": "In Context Learning"
+    },
+    {
+      "name": "Blockchain and Privacy on Blockchain"
+    },
+    {
+      "name": "Blockchain Architectures and DAO"
+    },
+    {
+      "name": "MicroSaas"
+    }
   ],
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "Bash", "C", "C++", "C#", "Java", "Javascript", "Python", "Dart", "Swift", "Objective C"]
+      "keywords": [
+        "Bash",
+        "C",
+        "C++",
+        "C#",
+        "Java",
+        "Javascript",
+        "Python",
+        "Dart",
+        "Swift",
+        "Objective C"
+      ]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "Ubuntu", "MacOS", "Git" , "Github", "g++", "cardano-cli/cardano-node" ]
+      "keywords": [
+        "Ubuntu",
+        "MacOS",
+        "Git",
+        "Github",
+        "g++",
+        "cardano-cli/cardano-node"
+      ]
     }
   ],
   "education": [
@@ -37,8 +79,7 @@
       "studyType": "PhD",
       "startDate": "2023-12-01",
       "endDate": "Present",
-      "courses": [
-      ]
+      "courses": []
     },
     {
       "institution": "University of Hawaii, Honolulu, HI",
@@ -46,8 +87,7 @@
       "studyType": "M.S.",
       "startDate": "2010-01-01",
       "endDate": "2012-08-01",
-      "courses": [
-      ]
+      "courses": []
     },
     {
       "institution": "University of Hawaii, Honolulu, HI",
@@ -55,8 +95,7 @@
       "studyType": "B.S.",
       "startDate": "2005-01-01",
       "endDate": "2009-12-01",
-      "courses": [
-      ]
+      "courses": []
     }
   ],
   "work": [
