@@ -39,9 +39,51 @@
     {% endif %}
 
     <title>{{ title }}</title>
+    <style media="screen">
+      div.highlighter-rouge {
+        position: relative;
+      }
+
+      div.highlighter-rouge button {
+        position: absolute;
+        top: 0px;
+        right: 10px;
+      }
+    </style>
   </head>
   <body>
   {{ content }}
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+      function InitCopyPaste() {
+        const codeBlocks = document.querySelectorAll("div.highlighter-rouge");
+
+        codeBlocks.forEach((codeblock, index) => {
+          const code = codeblock.innerText;
+          const copyCodeButton = document.createElement("button");
+          copyCodeButton.innerHTML = "COPY";
+          copyCodeButton.classList = "btn btn-sm btn-outline-primary";
+          
+          // Insert a copy button
+          copyCodeButton.onclick = function () {
+            window.navigator.clipboard.writeText(code);
+            copyCodeButton.innerHTML = "COPIED";
+            copyCodeButton.classList.add("btn-success");
+            copyCodeButton.classList.remove("btn-outline-primary");
+
+            setTimeout(() => {
+              copyCodeButton.innerHTML = "COPY";
+              copyCodeButton.classList.remove("btn-success");
+              copyCodeButton.classList.add("btn-outline-primary");
+            }, 2000);
+          };
+
+          // Make the button
+          codeblock.appendChild(copyCodeButton);
+        });
+      }
+
+      document.addEventListener("DOMContentLoaded", InitCopyPaste);
+    </script>
   </body>
 </html>
