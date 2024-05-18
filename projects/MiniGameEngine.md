@@ -45,7 +45,6 @@ With the technical complexities managed by the game engine, developers can unlea
 Conclusion
 The simple game engine for Python users bridges the gap between the desire to create games and the technical know-how required to develop them. It empowers users of all skill levels to embark on their game development journey, fostering creativity and innovation in the process. Whether you are a beginner eager to create your first game or an advanced user looking to build complex game systems, this game engine provides the tools and support you need to bring your ideas to life.
 
-<hr>
 Try it out for yourself at the website below. I recommend using the drop down to explore the following code:
 - Shapes
 - Crazy Shapes
