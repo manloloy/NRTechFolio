@@ -67,7 +67,7 @@
         "MacOS",
         "Git",
         "Github",
-        "g++",
+        "gcc/g++",
         "cardano-cli/cardano-node"
       ]
     }
