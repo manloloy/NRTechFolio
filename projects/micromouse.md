@@ -1,39 +1,38 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
-title: "Micromouse"
-date: 2015
-published: false
+image: img/CAAF/caaf.png
+title: "Wind Prediction Using Complex Augmented Adaptive Filters"
+date: 2010
+published: true
 labels:
-  - Robotics
-  - Arduino
-  - C++
-summary: "My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition."
+  - Renewable Energy
+  - Adaptive Filters
+  - Kernel Methods
+summary: "I was a contributor on the following Conference paper which was presented at the 2010 International Conference on Green Circuits and Systems in Shanghai. I worked on the LMS, RLS, KLMS, KRLS Algorithms and ran simulations in Matlab."
 ---
+# Paper Summary
 
-<div class="text-center p-4">
-  <img width="200px" src="../img/micromouse/micromouse-robot.png" class="img-thumbnail" >
-  <img width="200px" src="../img/micromouse/micromouse-robot-2.jpg" class="img-thumbnail" >
-  <img width="200px" src="../img/micromouse/micromouse-circuit.png" class="img-thumbnail" >
-</div>
+In recent years, the increasing adoption of renewable energy sources, such as wind power, has necessitated the development of accurate and efficient prediction methods for wind speed and direction. This is crucial for ensuring grid stability and optimizing the operation of wind turbines. The paper "Wind Prediction Using Complex Augmented Adaptive Filters" by Anthony Kuh, Christopher Manloloyo, Raynel Corpuz, and Nathan Kowahl from the University of Hawaii, delves into advanced nonlinear adaptive filtering techniques, specifically using kernel methods, to enhance wind prediction capabilities.
 
-Micromouse is an event where small robot “mice” solve a 16 x 16 maze.  Events are held worldwide.  The maze is made up of a 16 by 16 gird of cells, each 180 mm square with walls 50 mm high.  The mice are completely autonomous robots that must find their way from a predetermined starting position to the central area of the maze unaided.  The mouse will need to keep track of where it is, discover walls as it explores, map out the maze and detect when it has reached the center.  having reached the center, the mouse will typically perform additional searches of the maze until it has found the most optimal route from the start to the center.  Once the most optimal route has been determined, the mouse will run that route in the shortest possible time.
+Introduction to Wind Power and Prediction Challenges
+The global capacity for wind power generation has seen a significant increase, reaching 159.2 GW by the end of 2009. As a clean and renewable energy source, wind power presents an attractive alternative to fossil fuels, contributing to reduced greenhouse gas emissions. However, the intermittent and variable nature of wind poses challenges for its integration into power grids and the effective operation of wind farms. Accurate wind prediction is essential not only for short-term turbine protection and control but also for medium and long-term grid integration planning.
 
-For this project, I was the lead programmer who was responsible for programming the various capabilities of the mouse.  I started by programming the basics, such as sensor polling and motor actuation using interrupts.  From there, I then programmed the basic PD controls for the motors of the mouse.  The PD control the drive so that the mouse would stay centered while traversing the maze and keep the mouse driving straight.  I also programmed basic algorithms used to solve the maze such as a right wall hugger and a left wall hugger algorithm.  From there I worked on a flood-fill algorithm to help the mouse track where it is in the maze, and to map the route it takes.  We finished with the fastest mouse who finished the maze within our college.
+Kernel Methods in Adaptive Filtering
+Traditional adaptive filters like Least Mean Square (LMS) and Recursive Least Squares (RLS) have been foundational in signal processing. However, recent advancements have introduced nonlinear kernel adaptive filters, which offer a trade-off between performance and computational complexity. The paper builds on previous research that employed complex augmented implementations of these kernel algorithms, focusing on their application to wind time series prediction.
 
-Here is some code that illustrates how we read values from the line sensors:
+Complex Augmented Kernel Algorithms
+The authors explore the use of complex augmented kernels in adaptive filtering. By modeling wind speed and direction as a complex random process, they leverage complex signal processing techniques to improve prediction accuracy. The augmented approach involves using augmented data matrices and kernel matrices, which incorporate both real and imaginary parts of the wind data. This method is particularly beneficial for handling improper complex processes, common in wind data.
 
-```cpp
-byte ADCRead(byte ch)
-{
-    word value;
-    ADC1SC1 = ch;
-    while (ADC1SC1_COCO != 1)
-    {   // wait until ADC conversion is completed   
-    }
-    return ADC1RL;  // lower 8-bit value out of 10-bit data from the ADC
-}
-```
+Implementation and Performance Comparison
+The paper discusses the implementation of complex augmented subspace kernel regression algorithms and their online versions, such as the Kernel Recursive Least Squares (KRLS) and Kernel LMS (KLMS) algorithms. These algorithms are tested on real wind data sampled in an urban environment, categorized into high, medium, and low wind conditions. The study shows that kernel algorithms, particularly the augmented complex versions, outperform traditional LMS and RLS algorithms in terms of prediction accuracy and computational efficiency.
 
-You can learn more at the [UH Micromouse News Announcement](https://manoa.hawaii.edu/news/article.php?aId=2857).
+Simulation Results
+Simulation studies highlight the superior performance of the complex RLS algorithm over others, including the kernel LMS. The augmented kernel methods demonstrate better flexibility and adaptability, essential for nonlinear and complex time series data like wind profiles. These results are preliminary, with further extensive simulations planned to compare different algorithms and optimize parameters.
+
+Conclusion
+The research presented in this paper underscores the potential of complex augmented kernel methods in improving wind prediction accuracy. These algorithms offer a blend of superior performance and computational efficiency, crucial for the effective integration of wind power into modern energy systems. As the demand for renewable energy grows, advanced prediction methods like those discussed in this study will play a pivotal role in harnessing the full potential of wind energy.
+
+In summary, the paper provides a comprehensive analysis of advanced adaptive filtering techniques, showcasing their application to wind prediction and highlighting their advantages over traditional methods. The ongoing research and future simulations promise to further refine these techniques, contributing to more stable and efficient renewable energy systems.
+
+You can find the paper here: [Wind Prediction Using Complex Augmented Adaptive Filters](https://ieeexplore.ieee.org/document/5543100).
