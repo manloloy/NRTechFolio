@@ -12,12 +12,9 @@ labels:
   - Software Engineering
 ---
 
-z.shocode.com is an innovative platform that allows developers to write simple game code snippets quickly. In this article, we'll walk beginners and intermediate users through creating very simple game movements to draw and move a rectangle around the screen. A gif of the actions for the game we are going to create is shown below. The full source is given and you can paste the full source code into z.shocode.com.
-
-
-<img width="100px" class="rounded float-start pe-4" src="../img/MiniGameEngine/simplegamemove.gif">
-
-
+z.shocode.com is an innovative platform that allows developers to write simple game code snippets quickly. In this article, we'll walk beginners and intermediate users through creating very simple game movements to draw and move a rectangle around the screen. A gif of the actions for the game we are going to create is shown below. The full source is given and you can paste the full source code into z.shocode.com. <br/>
+<img width="400px" class="rounded float-start pe-4" src="../img/MiniGameEngine/simplegamemove.gif">
+<br/>
 The gif above demonstrates the box always moving in an x and y direction and reverses direction when a boundary is hit. Mouse clicks immediately bring the center of the box to the click location and if the click is too close to the edge, the box is telported to stay within the boundary. In addtion, the w, a, s, d, q, and e keys can also control the direction of the box.
 
 # Step-by-Step Guide
