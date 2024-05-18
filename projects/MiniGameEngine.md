@@ -30,7 +30,7 @@ By chaning the x and y position, the rectangle can be moved around the screen. T
 - Polygons
 - Stars
 
-I am planning on writing a short essay that describes how to use the shapes and built in functions shortly.
+I am planning on writing a short essay that describes how to use the shapes and built in functions in the near future.
 
 ## What is a Game Engine?
 A game engine is a software framework designed to simplify the development of video games. It provides essential tools and functionalities such as rendering graphics, handling user inputs, managing game states, and more. By using a game engine, developers can focus on the creative aspects of game development rather than dealing with the complexities of low-level programming.
@@ -67,4 +67,3 @@ Try it out for yourself at the website below. I recommend using the drop down to
 <br/>
 Website: <a href="https://z.shocode.com"><i class="fa-solid fa-browser"></i>z.shocode.com</a>
 
-I will be writing a short essay on how to get your own simple box shape moving around the screen using this game engine.
