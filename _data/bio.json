@@ -39,6 +39,24 @@
       "endDate": "Present",
       "courses": [
       ]
+    },
+    {
+      "institution": "University of Hawaii, Honolulu, HI",
+      "area": "Electrical Engineering",
+      "studyType": "M.S.",
+      "startDate": "2010-01-01",
+      "endDate": "2012-08-01"",
+      "courses": [
+      ]
+    },
+    {
+      "institution": "University of Hawaii, Honolulu, HI",
+      "area": "Electrical Engineering (expected Spring, 2026)",
+      "studyType": "B.S.",
+      "startDate": "2005-01-01",
+      "endDate": "2009-12-01"",
+      "courses": [
+      ]
     }
   ],
   "work": [
@@ -99,6 +117,33 @@
         "Designed and Executed Assessment Plans for renewable technologies",
         "Deisgned an android application which allos dosimeter data through mobile devices and sends data over sms",
         "Designed and Installed a communications network for the Maldivian Government"
+      ]
+    },
+    {
+      "company": "University of Hawaii at Manoa",
+      "position": "Rsearch Assistant",
+      "website": "https://ee.hawaii.edu/home/",
+      "startDate": "2010-01-01",
+      "endDate": "2012-08-01",
+      "summary": "Studied and Taught various Power Courses",
+      "highlights": [
+        "Lectured the Power Systems Course EE 491. I had full control over lectures and labs for this course. Spervised by Dr. Anthony Kuh",
+        "Taught the Power Electronics Lab in Spring 2011. and the C programming lab in 2010"
+      ]
+    },
+    {
+      "company": "SPAWAR Systems Center Pacific, Pearl City HI",
+      "position": "Electrical and Electronics Engineering Intern",
+      "website": "https://www.niwcpacific.navy.mil/",
+      "startDate": "2010-06-01",
+      "endDate": "2010-08-01",
+      "summary": "Worked on Renewable Energy, low powered electronics, and electronic kits.",
+      "highlights": [
+        "Analyzed electronics kits for teaching young students about electric power and renewable energy. Renewable Energies including solar, wind, and hydrogen fuel cells",
+        "Developed Robotics kits using 3D printing and servo/dc motors",
+        "Developed Robotics kits using 3D printing and servo/dc motors",
+        "Designed and built a prototype for teaching electric power and energy storage. This shows how to renewable energy can be generated and stored.",
+        "Analyze circuit designs for a low powered electronics application. The objective was to significantly reduce power on chip by utilizing the subthreshold region"
       ]
     }
   ],
