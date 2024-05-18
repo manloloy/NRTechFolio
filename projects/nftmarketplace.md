@@ -40,3 +40,11 @@ the revenue every time their work is resold. This feature supports sustainable i
 
 NFThor.io is dedicated to pushing the boundaries of what is possible with NFTs, providing a robust platform that supports innovation and 
 creativity in the digital space.
+
+If you want to experiemnt in the cardano blockchain at a low level, I recommend building cardano-node and cardano-cli from the source located [cardano-node](https://github.com/IntersectMBO/cardano-node). After installation, you can verify your node and cli versions by running the commands below.
+
+```bash
+cardano-node version
+cardano-cli version
+```
+At the time of writting, the current versions are cardano-node 8.9.2 and cardano-cli 8.20.3.0
