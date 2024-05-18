@@ -63,10 +63,11 @@
     {
       "name": "Toolsets/OS",
       "keywords": [
-        "Ubuntu",
-        "MacOS",
+        "Ubuntu/Kali Linux",
+        "Vim",
         "Git",
         "Github",
+        "VS Code",
         "gcc/g++",
         "cardano-cli/cardano-node"
       ]
