@@ -58,7 +58,7 @@ legend('Coefficient 1', 'Coefficient 2');
 Matlab has since implemented a recursiveLS object in their more modern packages. The basic usage  is shown below
 ```
 % Create a System object for online estimation using the recursive least squares algorithm.
-obj = recursiveLS(2);#
+obj = recursiveLS(2);
 % Load the estimation data, which for this example is a static data set.
 load iddata3
 input = z3.u;
