@@ -29,7 +29,8 @@ theta = zeros(n, 1); % Initial filter coefficients
 N = 1000; % Number of samples
 X = randn(N, n); % Input data
 d = X(:, 1) * 0.5 + X(:, 2) * 1.5 + 0.1 * randn(N, 1); % Desired output
-
+```
+```matlab
 % Recursive Least Squares Algorithm
 theta_history = zeros(n, N); % To store the history of theta
 for k = 1:N
@@ -45,7 +46,8 @@ for k = 1:N
     theta = theta + K * e;
     theta_history(:, k) = theta; % Store theta history
 end
-
+```
+```matlab
 % Plot the estimated coefficients
 figure;
 plot(1:N, theta_history(1, :), 'r', 1:N, theta_history(2, :), 'b');
@@ -56,6 +58,7 @@ legend('Coefficient 1', 'Coefficient 2');
 ```
 
 Matlab has since implemented a recursiveLS object in their more modern packages. The basic usage  is shown below
+
 ```matlab
 % Create a System object for online estimation using the recursive least squares algorithm.
 obj = recursiveLS(2);
@@ -66,7 +69,6 @@ output = z3.y;
 % Create a variable to store u(t-1). This variable is updated at each time step.
 oldInput = 0;
 % Estimate the parameters and output using step and input-output data, maintaining the current regressor pair in H. Invoke the step function implicitly by calling the obj system object with input arguments.
-
 for i = 1:numel(input)
     H = [input(i) oldInput];
     [theta, EstimatedOutput] = obj(output(i),H);
@@ -74,6 +76,8 @@ for i = 1:numel(input)
     theta_est(i,:) = theta;
     oldInput = input(i);
 end
+```
+```matlab
 % Plot the measured and estimated output data.
 numSample = 1:numel(input);
 plot(numSample,output,'b',numSample,estimatedOut,'r--');
