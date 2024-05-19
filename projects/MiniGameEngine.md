@@ -31,7 +31,7 @@ By chaning the x and y position, the rectangle can be moved around the screen. T
 - Polygons
 - Stars
 
-I am planning on writing a short essay that describes how to use the shapes and built in functions in the near future.
+If you are interested in getting your own projects running right away, I've written a short article on programming simple game interactions and movements in this engine. You can find it at [Building Simple Game Interactions and Movements with z.shocode.com](https://manloloy.github.io/NRTechfolio/essays/gamemovements.html)
 
 ## What is a Game Engine?
 A game engine is a software framework designed to simplify the development of video games. It provides essential tools and functionalities such as rendering graphics, handling user inputs, managing game states, and more. By using a game engine, developers can focus on the creative aspects of game development rather than dealing with the complexities of low-level programming.
