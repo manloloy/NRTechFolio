@@ -47,4 +47,25 @@ If you want to experiemnt in the cardano blockchain at a low level, I recommend 
 cardano-node version
 cardano-cli version
 ```
-At the time of writting, the current versions are cardano-node 8.9.2 and cardano-cli 8.20.3.0
+At the time of writting, the current versions are cardano-node 8.9.2 and cardano-cli 8.20.3.0. If everything was installed properly try the code below to build a wallet and check it's balance. The wallet should be empty but you can send ada to it and then check it again.
+
+```bash
+# create your wallet keys and do not ever share your signing key
+cardano-cli address key-gen \
+    --verification-key-file payment.vkey \
+    --signing-key-file payment.skey
+
+# get your cardano wallet address
+cardano-cli address build \
+    --payment-verification-key-file payment.vkey \
+    --out-file payment.addr \
+    --mainnet
+
+# show your wallet address
+cat payment.addr
+
+# check your address balance
+cardano-cli query utxo \
+    --address $(cat payment.addr) \
+    --mainnet
+```
