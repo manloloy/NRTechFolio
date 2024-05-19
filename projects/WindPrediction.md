@@ -14,28 +14,84 @@ summary: "I was a contributor on the following Conference paper which was presen
 
 I was a contributor on the following Conference paper which was presented at the 2010 International Conference on Green Circuits and Systems in Shanghai. I worked on the LMS, RLS, KLMS, KRLS Algorithms and ran simulations in Matlab.
 
-### Paper Summary
+## Getting started in Matlab
+The best way to get start in the area of these algorithms in Natlab is to try some example problems. The below code will help those gettingfamiliar with the Reursive Least Squares Algorithm.
 
-In recent years, the increasing adoption of renewable energy sources, such as wind power, has necessitated the development of accurate and efficient prediction methods for wind speed and direction. This is crucial for ensuring grid stability and optimizing the operation of wind turbines. The paper "Wind Prediction Using Complex Augmented Adaptive Filters" by Anthony Kuh, Christopher Manloloyo, Raynel Corpuz, and Nathan Kowahl from the University of Hawaii, delves into advanced nonlinear adaptive filtering techniques, specifically using kernel methods, to enhance wind prediction capabilities.
+```matlab
+% Initialize parameters
+lambda = 0.99;   % Forgetting factor
+delta = 1000;    % Initial value for covariance matrix
+n = 2;           % Number of filter coefficients
+P = delta * eye(n); % Covariance matrix
+theta = zeros(n, 1); % Initial filter coefficients
 
-## Introduction to Wind Power and Prediction Challenges
-The global capacity for wind power generation has seen a significant increase, reaching 159.2 GW by the end of 2009. As a clean and renewable energy source, wind power presents an attractive alternative to fossil fuels, contributing to reduced greenhouse gas emissions. However, the intermittent and variable nature of wind poses challenges for its integration into power grids and the effective operation of wind farms. Accurate wind prediction is essential not only for short-term turbine protection and control but also for medium and long-term grid integration planning.
+% Generate sample data
+N = 1000; % Number of samples
+X = randn(N, n); % Input data
+d = X(:, 1) * 0.5 + X(:, 2) * 1.5 + 0.1 * randn(N, 1); % Desired output
 
-## Kernel Methods in Adaptive Filtering
-Traditional adaptive filters like Least Mean Square (LMS) and Recursive Least Squares (RLS) have been foundational in signal processing. However, recent advancements have introduced nonlinear kernel adaptive filters, which offer a trade-off between performance and computational complexity. The paper builds on previous research that employed complex augmented implementations of these kernel algorithms, focusing on their application to wind time series prediction.
+% Recursive Least Squares Algorithm
+theta_history = zeros(n, N); % To store the history of theta
+for k = 1:N
+    x = X(k, :)'; % Input vector at time k
+    y = theta' * x; % Filter output
+    e = d(k) - y; % Estimation error
 
-## Complex Augmented Kernel Algorithms
-The authors explore the use of complex augmented kernels in adaptive filtering. By modeling wind speed and direction as a complex random process, they leverage complex signal processing techniques to improve prediction accuracy. The augmented approach involves using augmented data matrices and kernel matrices, which incorporate both real and imaginary parts of the wind data. This method is particularly beneficial for handling improper complex processes, common in wind data.
+    % Update the covariance matrix
+    K = P * x / (lambda + x' * P * x);
+    P = (P - K * x' * P) / lambda;
 
-## Implementation and Performance Comparison
-The paper discusses the implementation of complex augmented subspace kernel regression algorithms and their online versions, such as the Kernel Recursive Least Squares (KRLS) and Kernel LMS (KLMS) algorithms. These algorithms are tested on real wind data sampled in an urban environment, categorized into high, medium, and low wind conditions. The study shows that kernel algorithms, particularly the augmented complex versions, outperform traditional LMS and RLS algorithms in terms of prediction accuracy and computational efficiency.
+    % Update the filter coefficients
+    theta = theta + K * e;
+    theta_history(:, k) = theta; % Store theta history
+end
 
-## Simulation Results
-Simulation studies highlight the superior performance of the complex RLS algorithm over others, including the kernel LMS. The augmented kernel methods demonstrate better flexibility and adaptability, essential for nonlinear and complex time series data like wind profiles. These results are preliminary, with further extensive simulations planned to compare different algorithms and optimize parameters.
+% Plot the estimated coefficients
+figure;
+plot(1:N, theta_history(1, :), 'r', 1:N, theta_history(2, :), 'b');
+xlabel('Sample');
+ylabel('Coefficient Value');
+title('Recursive Least Squares Estimation');
+legend('Coefficient 1', 'Coefficient 2');
+```
 
-## Conclusion
-The research presented in this paper underscores the potential of complex augmented kernel methods in improving wind prediction accuracy. These algorithms offer a blend of superior performance and computational efficiency, crucial for the effective integration of wind power into modern energy systems. As the demand for renewable energy grows, advanced prediction methods like those discussed in this study will play a pivotal role in harnessing the full potential of wind energy.
+Matlab has since implemented a recursiveLS object in their more modern packages. The basic usage  is shown below
+```
+% Create a System object for online estimation using the recursive least squares algorithm.
+obj = recursiveLS(2);#
+% Load the estimation data, which for this example is a static data set.
+load iddata3
+input = z3.u;
+output = z3.y;
+% Create a variable to store u(t-1). This variable is updated at each time step.
+oldInput = 0;
+% Estimate the parameters and output using step and input-output data, maintaining the current regressor pair in H. Invoke the step function implicitly by calling the obj system object with input arguments.
 
-In summary, the paper provides a comprehensive analysis of advanced adaptive filtering techniques, showcasing their application to wind prediction and highlighting their advantages over traditional methods. The ongoing research and future simulations promise to further refine these techniques, contributing to more stable and efficient renewable energy systems.
+for i = 1:numel(input)
+    H = [input(i) oldInput];
+    [theta, EstimatedOutput] = obj(output(i),H);
+    estimatedOut(i)= EstimatedOutput;
+    theta_est(i,:) = theta;
+    oldInput = input(i);
+end
+% Plot the measured and estimated output data.
+numSample = 1:numel(input);
+plot(numSample,output,'b',numSample,estimatedOut,'r--');
+legend('Measured Output','Estimated Output');
+
+% Plot the parameters.
+plot(numSample,theta_est(:,1),numSample,theta_est(:,2))
+title('Parameter Estimates for Recursive Least Squares Estimation')
+legend("theta1","theta2")
+```
+The code above is provided in order to started using the algorithms mentioned in this paper.
+
+## Paper Summary
+
+The paper explores advanced methods for predicting wind speed and direction using complex augmented kernel adaptive filters. Wind power, a growing renewable energy source, presents challenges due to its intermittent nature. Accurate predictions are crucial for grid stability and turbine operation.
+
+Traditional adaptive filters like LMS and RLS have limitations in handling nonlinear and complex data. The authors propose using complex augmented kernel methods, which incorporate both real and imaginary parts of wind data, enhancing prediction accuracy and computational efficiency. They test these methods on real wind data sampled in an urban environment, finding that kernel algorithms, particularly augmented complex versions, outperform traditional methods.
+
+The study demonstrates that complex augmented kernel methods provide superior performance and flexibility for wind prediction, essential for integrating wind energy into modern power systems. Further research and simulations are planned to optimize these algorithms and improve renewable energy management.
 
 You can find the paper here: [Wind Prediction Using Complex Augmented Adaptive Filters](https://ieeexplore.ieee.org/document/5543100).
