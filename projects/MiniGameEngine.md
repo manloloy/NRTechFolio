@@ -30,8 +30,15 @@ By chaning the x and y position, the rectangle can be moved around the screen. T
 - Ovals
 - Polygons
 - Stars
-
+Here's a nice example of drawing a star on the screen.
+```python
+# Star(x position, y position, radius, points, sharpness, rotation, fillColor, borderColor)
+# x,y - center # points - number of tips. default is 5
+# sharpeness - between 0 (wide) and 1 (narrow), default is 0.5
+# rotation is in degrees clockwise # fillColor, borderColor are optional.
+s1=Star(200, 200, 25,5, 0.2, 0, 'yellow', 'red') 
 If you are interested in getting your own projects running right away, I've written a short article on programming simple game interactions and movements in this engine. You can find it at [Building Simple Game Interactions and Movements with z.shocode.com](https://manloloy.github.io/NRTechfolio/essays/gamemovements.html)
+```
 
 ## What is a Game Engine?
 A game engine is a software framework designed to simplify the development of video games. It provides essential tools and functionalities such as rendering graphics, handling user inputs, managing game states, and more. By using a game engine, developers can focus on the creative aspects of game development rather than dealing with the complexities of low-level programming.
