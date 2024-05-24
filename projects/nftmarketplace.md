@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: /img/nftmarketplace/NFThorPGem.png
+image: /img/nftmarketplace/nft.gif
 title: "A Cardano NFT Marketplace"
 date: 2021
 published: true
